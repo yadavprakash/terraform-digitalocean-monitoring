@@ -19,7 +19,7 @@ This Terraform module creates structured monitoring for digitalocean resources w
 You can use this module in your Terraform configuration like this:
 ```hcl
 module "uptime-alert" {
-  source      = "git::https://github.com/opsstation/terraform-digitalocean-monitoring.git?ref=v1.0.0"
+  source      = "git::https://github.com/yadavprakash/terraform-digitalocean-monitoring.git?ref=v1.0.0"
   name        = "side"
   environment = "testing"
   target_url  = ["https://google.com/"]
@@ -47,7 +47,7 @@ module "uptime-alert" {
 You can use this module in your Terraform configuration like this:
 ```hcl
 module "uptime-alert" {
-  source      = "git::https://github.com/opsstation/terraform-digitalocean-monitoring.git?ref=v1.0.0"
+  source      = "git::https://github.com/yadavprakash/terraform-digitalocean-monitoring.git?ref=v1.0.0"
   name        = "side"
   environment = "testing"
   target_url  = ["http://google.com/", "https://google.com/"]
@@ -84,14 +84,14 @@ Please ensure you specify the correct 'source' path for the module.
 - This module currently does not provide any outputs.
 
 # Examples
-For detailed examples on how to use this module, please refer to the '[example](https://github.com/opsstation/terraform-digitalocean-monitoring/tree/master/_examples)'directory within this repository.
+For detailed examples on how to use this module, please refer to the '[example](https://github.com/yadavprakash/terraform-digitalocean-monitoring/tree/master/_examples)'directory within this repository.
 
 ## Authors
 Your Name
 Replace '[License Name]' and '[Your Name]' with the appropriate license and your information. Feel free to expand this README with additional details or usage instructions as needed for your specific use case.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/opsstation/terraform-digitalocean-monitoring/blob/master/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/yadavprakash/terraform-digitalocean-monitoring/blob/master/LICENSE) file for details.
 
 
 
@@ -113,7 +113,7 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_labels"></a> [labels](#module\_labels) | git::https://github.com/opsstation/terraform-digitalocean-labels.git | v1.0.0 |
+| <a name="module_labels"></a> [labels](#module\_labels) | git::https://github.com/yadavprakash/terraform-digitalocean-labels.git | v1.0.0 |
 
 ## Resources
 

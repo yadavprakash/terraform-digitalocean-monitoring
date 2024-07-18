@@ -76,3 +76,4 @@ variable "notifications" {
   default     = []
   description = "The notification settings for a trigger alert."
 }
+
