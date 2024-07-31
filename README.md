@@ -19,7 +19,7 @@ This Terraform module creates structured monitoring for digitalocean resources w
 You can use this module in your Terraform configuration like this:
 ```hcl
 module "uptime-alert" {
-  source      = "git::https://github.com/yadavprakash/terraform-digitalocean-monitoring.git?ref=v1.0.0"
+  source      = "git::https://github.com/yadavprakash/terraform-digitalocean-monitoring.git"
   name        = "side"
   environment = "testing"
   target_url  = ["https://google.com/"]
@@ -47,7 +47,7 @@ module "uptime-alert" {
 You can use this module in your Terraform configuration like this:
 ```hcl
 module "uptime-alert" {
-  source      = "git::https://github.com/yadavprakash/terraform-digitalocean-monitoring.git?ref=v1.0.0"
+  source      = "git::https://github.com/yadavprakash/terraform-digitalocean-monitoring.git"
   name        = "side"
   environment = "testing"
   target_url  = ["http://google.com/", "https://google.com/"]
